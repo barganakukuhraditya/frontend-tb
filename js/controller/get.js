@@ -12,6 +12,6 @@ function isiRow(value) {
             .replace("#UKURAN#", value.ukuran)
             .replace("#DESKRIPSI#", value.deskripsi)
             .replace("#STOK#", value.stok)
-            .replace("#HARGA#", value.harga)
+            .replace("#HARGA#", formatRupiah(value.harga))
         addInner("iniTabel", content);
 }
