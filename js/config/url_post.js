@@ -1,4 +1,4 @@
-export let urlPOST = "URLHEROKU/insert"
+export let urlPOST = "https://tb-parfume2024-34a7b650de40.herokuapp.com/insert"
 
 export function AmbilResponse(result) {
     console.log(result); //menampilkan response API pada console
