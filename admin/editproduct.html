@@ -12,7 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
     <script src="https://cdn.tailwindcss.com"></script>
-    <script type="module" src="../js/fetch.js"></script>
+    <script type="module" src="../js/controller/getparfume.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
 </head>
 <body class="bg-gray-900">
 
@@ -32,8 +34,8 @@
                     <div>
                         <label for="jenis_parfume" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Fragrance Type</label>
                         <select id="jenis_parfume" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500">
-                            <option value="TV">Eau de Parfum</option>
-                            <option value="PC">Eau de Toilette</option>
+                            <option value="Eau de Parfum">Eau de Parfum</option>
+                            <option value="Eau de Toilette">Eau de Toilette</option>
                         </select>
                     </div>
                     <div class="w-full">
@@ -54,12 +56,12 @@
                     </div>
                 </div>
                 <button id="button" type="button" class="inline-flex items-center px-5 py-2.5 mt-4 sm:mt-6 text-sm font-medium text-center text-white bg-cyan-700 rounded-lg focus:ring-4 focus:ring-cyan-500 dark:focus:ring-cyan-500 hover:bg-cyan-500">
-                    Add product
+                    Update Product
                 </button>
             </form>
         </div>
       </section>
       <!-- <script type="module" src="../js/controller/postdata.js"></script> -->
-      <script type="module" src="../js/controller/post.js"></script>
+      <script type="module" src="../js/controller/update.js"></script>
 </body>
 </html>
