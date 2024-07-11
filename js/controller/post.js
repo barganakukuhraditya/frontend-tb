@@ -10,8 +10,8 @@ function pushData(){
         "jenis_parfume": getValue("jenis_parfume"),
         "ukuran": getValue("ukuran"),
         "deskripsi": getValue("deskripsi"),
-        "stok": getValue("stok"),
-        "harga": getValue("harga")
+        "stok": parseInt(getValue("stok")),   
+        "harga": parseInt(getValue("harga"))  
     }
     postData(urlPOST, data, AmbilResponse);
 
