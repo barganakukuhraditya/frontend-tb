@@ -23,7 +23,8 @@ export let isiTabel=
             #HARGA#
         </td>
         <td class="px-6 py-4">
-            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a>
+            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a> | <br>
+            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Hapus</a>
         </td>
     </tr>
 `
