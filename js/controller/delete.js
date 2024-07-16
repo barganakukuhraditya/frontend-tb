@@ -6,7 +6,7 @@ function confirmDelete(IDHAPUS) {
 
 function deleteData(IDHAPUS) {
     var ParfumeId = IDHAPUS;
-    var target_url = "https://tb-parfume2024-34a7b650de40.herokuapp.com/delete/" + ParfumeId;
+    var target_url = "https://tb-parfume2024-34a7b650de40.herokuapp.com/parfume/delete/" + ParfumeId;
 
     var requestOptions = {
         method: 'DELETE',

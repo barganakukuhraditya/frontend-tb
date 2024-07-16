@@ -44,7 +44,7 @@ function updateProductCards(data) {
   data.forEach(product => {
     const randomImageUrl = getRandomImageUrl(imageUrls);
     const productCard = `
-      <div class="w-full max-w-xs bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 m-2">
+      <div class="w-full max-w-xs bg-white border border-gray-200 rounded-lg shadow bg-gradient-to-b from-gray-700 to-gray-900 dark:border-gray-700 m-2">
           <a href="#">
               <img class="p-4 rounded-t-lg" src="${randomImageUrl}" alt="product image" />
           </a>
