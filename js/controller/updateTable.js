@@ -1,5 +1,3 @@
-
-  
 export function updateTable(parfumes) {
     const tableBody = document.getElementById("iniId");
     tableBody.innerHTML = "";
@@ -42,7 +40,7 @@ export function updateTable(parfumes) {
 
     Swal.fire({
       title: "Apakah Anda yakin?",
-      text: "Tugas ini akan dihapus secara permanen!",
+      text: "Data parfume ini akan dihapus secara permanen!",
       icon: "warning",
       showCancelButton: true,
       confirmButtonColor: "#3085d6",
@@ -85,8 +83,8 @@ export function updateTable(parfumes) {
   };
 
 
-window.editTask = function (parfumeId) {
-  localStorage.setItem("parfumeId", parfumeId);
-  window.location.href = "editproduct.html";
-};
+  window.editTask = function (parfumeId) {
+    localStorage.setItem("parfumeId", parfumeId);
+    window.location.href = "editproduct.html";
+  };
 

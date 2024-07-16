@@ -23,8 +23,9 @@ export let isiTabel=
             #HARGA#
         </td>
         <td class="px-6 py-4">
-            <a type="button" href="editproduct.html?id" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a> | 
-            <a href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Hapus</a>
+            <a type="button" href="editproduct.html?ParfumeId=#IDEDIT#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Edit</a> | 
+            <a type="button" id="del_button" onclick="confirmDelete('#IDHAPUS#')" href="#" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">Hapus</a>
         </td>
     </tr>
+
 `
