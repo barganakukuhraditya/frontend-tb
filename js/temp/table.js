@@ -17,6 +17,9 @@ export let isiTabel=
             #DESKRIPSI#
         </td>
         <td class="px-6 py-4">
+            #TAHUN#
+        </td>
+        <td class="px-6 py-4">
             #STOK#
         </td>
         <td class="px-6 py-4">
