@@ -56,6 +56,7 @@ function updateProductCards(data) {
                   <div class="flex items-center space-x-1 rtl:space-x-reverse">
                   </div>
                   <p id="merk" class="text-sm font-semibold text-gray-400">${product.merk}</p>
+                  <span id="tahun_peluncuran" class="pl-1 text-xs text-gray-600"><em>${product.tahun_peluncuran}</em></span>
                   <span id="ukuran" class="bg-blue-100 text-blue-800 text-xs font-semibold px-2 py-0.5 rounded dark:bg-blue-200 dark:text-blue-800 ms-2">${product.ukuran}</span>
               </div>
               <p id="tipe_parfume" class="text-xs text-gray-500 ">${product.jenis_parfume}</p>
